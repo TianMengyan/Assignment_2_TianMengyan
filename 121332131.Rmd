@@ -1,0 +1,26 @@
+---
+title: "Assignment_2 TianMengyan"
+author: "Tian Mengyan"
+date: "2021/10/5"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Airquality-assignment
+**This is the data I have sorted out.**
+*Please check it.*
+ 
+```{r cars}
+summary(cars)
+
+airquality
+data.frame(airquality)
+value<-complete.cases(airquality)
+airquality[value,][1:10,]
+```
+
